@@ -10,6 +10,7 @@ noinst_LIBRARIES = libsynctex.a
 libsynctex_a_SOURCES = synctex_parser.c synctex_parser_utils.c synctex_parser.h	\
 			synctex_parser_local.h synctex_parser_utils.h
 libsynctex_a_CFLAGS = -w $(zlib_CFLAGS) -DSYNCTEX_USE_LOCAL_HEADER
+ACLOCAL_AMFLAGS = -I m4
 
 if HAVE_W32
 epdfinfo_LDADD += -lshlwapi

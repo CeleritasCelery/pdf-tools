@@ -7,6 +7,7 @@ AM_INIT_AUTOMAKE([-Wall -Wno-override foreign silent-rules])
 AC_CONFIG_SRCDIR([epdfinfo.h])
 AC_CONFIG_HEADERS([config.h])
 
+AC_CONFIG_MACRO_DIR([m4])
 # Checks for programs.
 AC_PROG_CC
 AM_PROG_CC_C_O
